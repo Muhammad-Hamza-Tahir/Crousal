@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1360px;
+    height: 620px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.crousal-img{
+    border: 5px solid blue;
+    width: 900px;
+    height: 300px;
+}
+#image{
+    width: 900px;
+    height: 300px;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, .7);
+}
+#prev{
+    display: none;
+}
